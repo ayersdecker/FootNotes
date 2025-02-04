@@ -6,13 +6,13 @@ This repository is designed to automate the process of formatting citations for 
 
 ## File Structure
 
-source_article.docx: The document containing footnotes with citations.
+**source_article.docx:** The document containing footnotes with citations.
 
-DPF_Master_Code.docx: The template where formatted citations are inserted.
+**DPF_Master_Code.docx:** The template where formatted citations are inserted.
 
-script.py: A script to automate the extraction and formatting process.
+**script.py:** A script to automate the extraction and formatting process.
 
-README.md: This document.
+**README.md:** This document.
 
 ## Formatting Rules
 
@@ -24,11 +24,11 @@ Each citation gets its own dedicated page in DPF_Master_Code.docx.
 
 ## Example
 
-Footnote from source_article.docx:
+Footnote from **source_article.docx:**
 
-``` Bonnie Langston, Food fight: Some local farms prefer “Naturally Grown” over “Organic,” INSTITUTE FOR AGRICULTURE & TRADE POLICY (2007); Lisa Hill, The Rise of ‘Certified Naturally Grown’…and how it’s shaping the way we eat, CERTIFIED NATURALLY ORGANIC (May 16, 2022), https://www.naturallygrown.org/the-rise-of-certified-naturally-grown-and-how-its-shaping-the-way-we-eat/.```
+```Bonnie Langston, Food fight: Some local farms prefer “Naturally Grown” over “Organic,” INSTITUTE FOR AGRICULTURE & TRADE POLICY (2007); Lisa Hill, The Rise of ‘Certified Naturally Grown’…and how it’s shaping the way we eat, CERTIFIED NATURALLY ORGANIC (May 16, 2022), https://www.naturallygrown.org/the-rise-of-certified-naturally-grown-and-how-its-shaping-the-way-we-eat/.```
 
-Transformed in DPF_Master_Code.docx:
+Transformed in **DPF_Master_Code.docx:**
 
 Page 1 (7.1):
 
@@ -42,15 +42,13 @@ Page 2 (7.2):
 
 Place the source document (source_article.docx) in the repository folder.
 
-Run script.py to extract and format citations.
+Run **script.py** to extract and format citations.
 
-The DPF_Master_Code.docx will be updated with properly formatted citations.
+The **DPF_Master_Code.docx** will be updated with properly formatted citations.
 
 ## Dependencies
 
-Python 3
-
-python-docx library for handling .docx files
+N/A
 
 ## Future Improvements
 
